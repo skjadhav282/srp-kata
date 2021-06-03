@@ -6,6 +6,15 @@ public class Vehicle {
     private final int maxFuel;
     private int remainingFuel;
 
+    @Test
+    public void testVehicleWithPositiveNum()
+    {
+        final int w_no = 10;
+        Vehicle w_vehicle = new Vehicle(w_no);
+        assertEquals(w_vehicle.maxFuel, 10);
+        assertEquals(w_vehicle.remainingFuel, 10);
+    }
+    
     public Vehicle(final int maxFuel) {
         this.maxFuel = maxFuel;
         remainingFuel = maxFuel;
