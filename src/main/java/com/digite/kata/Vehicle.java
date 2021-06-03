@@ -26,8 +26,8 @@ public class Vehicle {
     public void setRemainingFuel(final int remainingFuel) {
         this.remainingFuel = remainingFuel;
     }
-
+    /*
     public void accelerate() {
         remainingFuel--;
-    }
+    }*/
 }
